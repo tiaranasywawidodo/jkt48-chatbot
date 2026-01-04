@@ -1,4 +1,8 @@
 import nltk
+# Tambahkan dua baris ini:
+nltk.download('punkt')
+nltk.download('punkt_tab') 
+nltk.download('wordnet')
 import pickle
 import numpy as np
 import json

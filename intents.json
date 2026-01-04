@@ -1,0 +1,105 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": ["Halo", "Selamat pagi", "Hai", "Permisi", "P", "Siang", "Halo Rin", "Malam", "Assalam", "Halo bot", "Hey"],
+      "responses": [
+        "Halo! Aku Rin, asisten AI JKT48. Ada yang bisa dibantu? ✨",
+        "Hai! Selamat datang di pusat informasi JKT48. Mau tanya apa hari ini?"
+      ]
+    },
+    {
+      "tag": "sejarah",
+      "patterns": ["Kapan JKT48 berdiri?", "Sejarah JKT48", "Asal JKT48", "Siapa pembentuk JKT48", "Kapan pertama kali ada?", "Kapan JKT48 dibentuk?", "Siapa pendiri JKT48?"],
+      "responses": [
+        "JKT48 dibentuk pada 17 Desember 2011 sebagai sister group AKB48 pertama di luar Jepang oleh Yasushi Akimoto."
+      ]
+    },
+    {
+      "tag": "kapten",
+      "patterns": ["Siapa kapten JKT48?", "Kapten sekarang siapa?", "Pemimpin JKT48", "Siapa kaptennya?", "Gracia itu siapa?", "Siapa leader JKT48?", "Shania Gracia itu siapa?"],
+      "responses": [
+        "Kapten JKT48 saat ini adalah Shania Gracia dari generasi ke-3. Ia resmi menjadi kapten sejak Mei 2024 menggantikan Shani Indira Natio!"
+      ]
+    },
+    {
+      "tag": "member",
+      "patterns": ["Siapa member JKT48?", "Daftar member", "Jumlah member", "Ada berapa member sekarang?", "Generasi member", "Siapa saja membernya?", "Member aktif ada berapa?"],
+      "responses": [
+        "JKT48 memiliki member dari generasi 1 sampai 12. Saat ini ada sekitar 50+ member aktif termasuk Trainee generasi terbaru. Kamu bisa cek profil lengkapnya di jkt48.com/member."
+      ]
+    },
+    {
+      "tag": "teater",
+      "patterns": ["Dimana teater JKT48?", "Lokasi teater", "Alamat JKT48", "Nontonnya dimana?", "fX Sudirman", "Dimana markas JKT48?", "Lokasi JKT48 Theater"],
+      "responses": [
+        "Teater JKT48 berlokasi di Mall fX Sudirman Lantai 4, Jakarta Pusat. Di sini tempat para member tampil setiap harinya!"
+      ]
+    },
+    {
+      "tag": "cara_nonton",
+      "patterns": ["Cara beli tiket teater", "Gimana cara nonton?", "Beli tiket dimana?", "Harga tiket teater", "Cara daftar fans club", "Cara ikut OFC", "Nonton teater gimana?"],
+      "responses": [
+        "Untuk menonton, kamu harus registrasi di website resmi jkt48.com, lalu pilih menu 'Teater' untuk memesan tiket sesuai jadwal yang tersedia."
+      ]
+    },
+    {
+      "tag": "lagu",
+      "patterns": ["Lagu JKT48 apa aja?", "Lagu terbaru", "Berapa banyak lagu JKT48", "Lagu paling populer", "Fortune Cookie", "Heavy Rotation", "Magic Hour", "Lagu hitsnya apa?", "Rapsodi"],
+      "responses": [
+        "JKT48 punya ratusan lagu populer seperti 'Heavy Rotation', 'Fortune Cookie yang Mencinta', 'Rapsodi', dan single terbaru 'Magic Hour'."
+      ]
+    },
+    {
+      "tag": "golden_rules",
+      "patterns": ["Apa itu golden rules?", "Aturan member JKT48", "Boleh pacaran gak?", "Aturan ketat member", "Larangan member"],
+      "responses": [
+        "Member JKT48 terikat 'Golden Rules', di antaranya dilarang berpacaran, dilarang merokok/minum miras, dan dilarang berinteraksi sembarangan di media sosial demi menjaga citra idol."
+      ]
+    },
+    {
+      "tag": "senbatsu",
+      "patterns": ["Apa itu senbatsu?", "Arti senbatsu", "Siapa senbatsu?", "Gimana cara pilih senbatsu?", "SSK itu apa?", "Sousenkyo"],
+      "responses": [
+        "Senbatsu adalah member pilihan yang berhak membawakan lagu utama di sebuah single. Penentuannya bisa melalui pilihan manajemen atau melalui Sousenkyo (pemilihan oleh fans)."
+      ]
+    },
+    {
+      "tag": "trainee",
+      "patterns": ["Apa itu trainee?", "Member academy", "Apa itu generasi terbaru?", "Trainee JKT48", "Cara jadi member JKT48", "Audisi JKT48"],
+      "responses": [
+        "Trainee adalah calon member yang sedang menempuh pelatihan sebelum resmi dipromosikan menjadi member inti. Audisinya dibuka secara berkala melalui situs resmi."
+      ]
+    },
+    {
+      "tag": "event",
+      "patterns": ["Apa itu handshake?", "Personal meet and greet", "2shot itu apa?", "Event JKT48 apa aja?", "Ketemu member dimana?"],
+      "responses": [
+        "JKT48 sering mengadakan event interaksi seperti Personal Meet & Greet (dulu Handshake) dan 2-Shot (foto berdua) sebagai bentuk kedekatan antara member dan fans."
+      ]
+    },
+    {
+      "tag": "oshimen",
+      "patterns": ["Apa itu oshi?", "Oshi itu apa?", "Arti oshimen", "Oshimen artinya", "Cara dukung oshi"],
+      "responses": [
+        "Oshi atau Oshimen adalah istilah untuk member favorit yang paling kamu dukung di JKT48!"
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": ["Terima kasih", "Sampai jumpa", "Dadah", "Keluar", "Bye", "Sip", "Oke", "Thanks", "Makasih"],
+      "responses": [
+        "Sama-sama! Dukung terus JKT48 ya! 🎤",
+        "Sampai jumpa kembali di teater! ✨"
+      ]
+    },
+    {
+      "tag": "tidak_paham",
+      "patterns": ["apa", "hah", "gatau", "maksudnya", "kamu siapa", "woi"],
+      "responses": [
+        "Maaf, Rin kurang paham maksudnya. Bisa tanya hal lain seputar member, lagu, atau teater JKT48?",
+        "Rin belum belajar tentang itu. Coba tanya info member atau jadwal teater ya!"
+      ]
+    }
+  ]
+}

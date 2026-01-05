@@ -2,103 +2,222 @@
   "intents": [
     {
       "tag": "salam",
-      "patterns": ["Halo", "Selamat pagi", "Hai", "Permisi", "P", "Siang", "Halo Rin", "Malam", "Assalam", "Halo bot", "Hey"],
+      "patterns": ["Halo", "Hai", "Rin", "Halo Rin", "Selamat pagi", "Selamat siang", "P", "Halo chatbot", "Assalamualaikum", "Hoy", "Pagi Rin", "Siang Rin", "Halo JKT48", "Hai Rin"],
       "responses": [
-        "Halo! Aku Rin, asisten AI JKT48. Ada yang bisa dibantu? ✨",
-        "Hai! Selamat datang di pusat informasi JKT48. Mau tanya apa hari ini?"
+        "Halo! Ada yang bisa Rin bantu tentang JKT48? ✨",
+        "Hai! Senang bertemu kamu, mau tanya apa soal JKT48? ❤️",
+        "Halo fans JKT48! Apa yang ingin kamu ketahui hari ini? 🎤",
+        "Selamat datang! Rin siap menjawab pertanyaanmu seputar JKT48! ✨",
+        "Hai hai! Ada kabar apa hari ini? Mau bahas oshi atau teater? 😊"
       ]
     },
     {
       "tag": "sejarah",
-      "patterns": ["Kapan JKT48 berdiri?", "Sejarah JKT48", "Asal JKT48", "Siapa pembentuk JKT48", "Kapan pertama kali ada?", "Kapan JKT48 dibentuk?", "Siapa pendiri JKT48?"],
+      "patterns": ["Apa itu JKT48", "Sejarah JKT48", "Kapan JKT48 dibentuk", "Asal usul JKT48", "Kapan JKT48 ada", "Siapa pendiri JKT48", "Ceritakan tentang JKT48", "Sejarah awal JKT48"],
       "responses": [
-        "JKT48 dibentuk pada 17 Desember 2011 sebagai sister group AKB48 pertama di luar Jepang oleh Yasushi Akimoto."
+        "JKT48 adalah grup idola asal Indonesia dan grup saudari internasional pertama dari AKB48 yang dibentuk pada 17 Desember 2011. 🇯🇵🇮🇩",
+        "Grup ini lahir tahun 2011 dan sejak itu terus berkembang hingga sekarang. Sejarahnya panjang dan penuh perjuangan lho! ✨",
+        "JKT48 dibentuk pertama kali tahun 2011 dengan audisi generasi pertama yang sangat fenomenal!",
+        "Berawal dari fX Sudirman pada 2011, JKT48 kini sudah menjadi grup idola terbesar di Indonesia! 🌟"
       ]
     },
     {
       "tag": "kapten",
-      "patterns": ["Siapa kapten JKT48?", "Kapten sekarang siapa?", "Pemimpin JKT48", "Siapa kaptennya?", "Gracia itu siapa?", "Siapa leader JKT48?", "Shania Gracia itu siapa?"],
+      "patterns": ["Siapa kapten JKT48", "Nama kapten JKT48", "Freya itu siapa", "Siapa pemimpin JKT48", "Kapten sekarang siapa", "Siapa kaptennya", "Freya Jayawardana JKT48"],
       "responses": [
-        "Kapten JKT48 saat ini adalah Shania Gracia dari generasi ke-3. Ia resmi menjadi kapten sejak Mei 2024 menggantikan Shani Indira Natio!"
+        "Saat ini JKT48 dipimpin oleh Freya Jayawardana dari generasi ke-7. Dia kapten yang sangat hebat dan menginspirasi! 👑",
+        "Kapten kita sekarang adalah Freya! Dia sosok yang sangat dicintai oleh para member dan fans. ❤️",
+        "Freya Jayawardana adalah kapten JKT48 saat ini, dia sudah bergabung sejak generasi ke-7.",
+        "Freya (Generasi 7) adalah sosok yang memimpin JKT48 saat ini dengan penuh dedikasi! 🌸"
       ]
     },
     {
       "tag": "member",
-      "patterns": ["Siapa member JKT48?", "Daftar member", "Jumlah member", "Ada berapa member sekarang?", "Generasi member", "Siapa saja membernya?", "Member aktif ada berapa?"],
+      "patterns": ["Berapa jumlah member", "Daftar member JKT48", "Siapa saja membernya", "Generasi JKT48", "Cek member", "Sebutkan member JKT48", "Siapa member favorit", "Ada berapa generasi"],
       "responses": [
-        "JKT48 memiliki member dari generasi 1 sampai 12. Saat ini ada sekitar 50+ member aktif termasuk Trainee generasi terbaru. Kamu bisa cek profil lengkapnya di jkt48.com/member."
+        "Member JKT48 terdiri dari berbagai generasi. Ada member inti dan juga trainee yang sedang berjuang keras! 💪",
+        "Jumlah member selalu dinamis, tapi semangat mereka untuk menghibur fans selalu luar biasa! ✨",
+        "Kamu bisa melihat daftar lengkap member di website resmi JKT48. Ada banyak member berbakat di sana!",
+        "Dari Generasi 1 sampai yang terbaru, JKT48 punya puluhan member berbakat. Siapa oshi kamu? 😍"
       ]
     },
     {
       "tag": "teater",
-      "patterns": ["Dimana teater JKT48?", "Lokasi teater", "Alamat JKT48", "Nontonnya dimana?", "fX Sudirman", "Dimana markas JKT48?", "Lokasi JKT48 Theater"],
+      "patterns": ["Dimana lokasi teater", "Alamat teater JKT48", "Tempat nonton JKT48", "Nonton JKT48 dimana", "Dimana fX Sudirman", "Lokasi teaternya di mana", "Dimana alamat fX", "Teater itu apa"],
       "responses": [
-        "Teater JKT48 berlokasi di Mall fX Sudirman Lantai 4, Jakarta Pusat. Di sini tempat para member tampil setiap harinya!"
+        "Teater JKT48 berlokasi di fX Sudirman Lantai 4, Jakarta. Yuk mampir dan bawa Lightstick kamu! 🏟️",
+        "Kamu bisa menyaksikan pertunjukan mereka di fX Sudirman. Suasana di sana seru banget dan penuh energi! ✨",
+        "Lokasi teater ada di fX Sudirman Lt. 4. Pastikan sudah punya tiket sebelum datang ya!",
+        "Langsung saja meluncur ke Lantai 4 fX Sudirman, Jakarta Pusat untuk ke teater JKT48! 📍"
       ]
     },
     {
       "tag": "cara_nonton",
-      "patterns": ["Cara beli tiket teater", "Gimana cara nonton?", "Beli tiket dimana?", "Harga tiket teater", "Cara daftar fans club", "Cara ikut OFC", "Nonton teater gimana?"],
+      "patterns": ["Gimana cara nonton JKT48", "Cara beli tiket teater", "Daftar web JKT48", "Beli tiket dimana", "Tutorial nonton teater", "Info tiket JKT48", "Gimana nontonnya", "War tiket JKT48"],
       "responses": [
-        "Untuk menonton, kamu harus registrasi di website resmi jkt48.com, lalu pilih menu 'Teater' untuk memesan tiket sesuai jadwal yang tersedia."
+        "Pertama kamu harus registrasi di website resmi JKT48, lalu pilih jadwal pertunjukan dan ikuti undian tiketnya! 🎟️",
+        "Kamu bisa beli tiket lewat web resmi jkt48.com. Pastikan kuota internet aman ya saat war tiket! 💻",
+        "Cukup login ke akun JKT48 kamu, pilih 'Theater' dan klik 'Apply' pada jadwal yang tersedia.",
+        "Pastikan akun kamu sudah terverifikasi di website resmi untuk mulai memburu tiket teater! 🎫"
       ]
     },
     {
-      "tag": "lagu",
-      "patterns": ["Lagu JKT48 apa aja?", "Lagu terbaru", "Berapa banyak lagu JKT48", "Lagu paling populer", "Fortune Cookie", "Heavy Rotation", "Magic Hour", "Lagu hitsnya apa?", "Rapsodi"],
+      "tag": "jkt48v",
+      "patterns": ["Apa itu JKT48V", "Siapa member virtual", "Virtual member JKT48", "Pia JKT48V", "Tana JKT48V", "Kana JKT48V", "Tentang JKT48 Virtual"],
       "responses": [
-        "JKT48 punya ratusan lagu populer seperti 'Heavy Rotation', 'Fortune Cookie yang Mencinta', 'Rapsodi', dan single terbaru 'Magic Hour'."
-      ]
-    },
-    {
-      "tag": "golden_rules",
-      "patterns": ["Apa itu golden rules?", "Aturan member JKT48", "Boleh pacaran gak?", "Aturan ketat member", "Larangan member"],
-      "responses": [
-        "Member JKT48 terikat 'Golden Rules', di antaranya dilarang berpacaran, dilarang merokok/minum miras, dan dilarang berinteraksi sembarangan di media sosial demi menjaga citra idol."
-      ]
-    },
-    {
-      "tag": "senbatsu",
-      "patterns": ["Apa itu senbatsu?", "Arti senbatsu", "Siapa senbatsu?", "Gimana cara pilih senbatsu?", "SSK itu apa?", "Sousenkyo"],
-      "responses": [
-        "Senbatsu adalah member pilihan yang berhak membawakan lagu utama di sebuah single. Penentuannya bisa melalui pilihan manajemen atau melalui Sousenkyo (pemilihan oleh fans)."
-      ]
-    },
-    {
-      "tag": "trainee",
-      "patterns": ["Apa itu trainee?", "Member academy", "Apa itu generasi terbaru?", "Trainee JKT48", "Cara jadi member JKT48", "Audisi JKT48"],
-      "responses": [
-        "Trainee adalah calon member yang sedang menempuh pelatihan sebelum resmi dipromosikan menjadi member inti. Audisinya dibuka secara berkala melalui situs resmi."
-      ]
-    },
-    {
-      "tag": "event",
-      "patterns": ["Apa itu handshake?", "Personal meet and greet", "2shot itu apa?", "Event JKT48 apa aja?", "Ketemu member dimana?"],
-      "responses": [
-        "JKT48 sering mengadakan event interaksi seperti Personal Meet & Greet (dulu Handshake) dan 2-Shot (foto berdua) sebagai bentuk kedekatan antara member dan fans."
+        "JKT48V adalah sub-unit virtual JKT48 yang terdiri dari karakter-karakter keren seperti Pia Meraleo, Tana Nona, dan Kanaia Asa! 🎮",
+        "Mereka adalah VTuber resmi JKT48. Mereka aktif melakukan streaming dan juga punya lagu sendiri lho! ✨",
+        "JKT48V menggabungkan konsep idola dengan teknologi Virtual YouTuber. Modern banget kan? 🌟"
       ]
     },
     {
       "tag": "oshimen",
-      "patterns": ["Apa itu oshi?", "Oshi itu apa?", "Arti oshimen", "Oshimen artinya", "Cara dukung oshi"],
+      "patterns": ["Apa itu oshi", "Arti oshi", "Siapa oshi kamu", "Maksud oshimen", "Definisi oshi", "Apa itu oshi member", "Jelaskan tentang oshi", "Arti oshimen"],
       "responses": [
-        "Oshi atau Oshimen adalah istilah untuk member favorit yang paling kamu dukung di JKT48!"
+        "Oshi atau Oshimen itu artinya member favorit yang paling kamu dukung sepenuh hati! ❤️",
+        "Punya oshi bisa bikin hari-hari kamu lebih semangat lho. Siapa nih oshi kamu di JKT48? ✨",
+        "Istilah Oshi berasal dari bahasa Jepang 'Oshimen' yang berarti member yang didorong atau didukung.",
+        "Oshi adalah seseorang yang kamu jadikan motivasi dan idola utama di grup! 🌟"
+      ]
+    },
+    {
+      "tag": "golden_rules",
+      "patterns": ["Apa itu golden rules", "Member boleh pacaran gak", "Aturan JKT48", "Larangan member", "Aturan dilarang pacaran", "Boleh pacaran gak", "Aturan manajemen JKT48"],
+      "responses": [
+        "Member harus mengikuti Golden Rules, seperti larangan berpacaran agar bisa fokus memberikan yang terbaik untuk fans. ⚠️",
+        "Aturannya cukup ketat demi menjaga profesionalisme, salah satunya adalah dilarang pacaran selama menjadi member aktif. ❤️",
+        "Golden Rules adalah aturan dasar yang menjaga citra dan kedisiplinan para member JKT48.",
+        "Intinya member harus profesional dan fokus pada karir idolnya, jadi ada aturan tidak boleh berpacaran. 🔒"
+      ]
+    },
+    {
+      "tag": "senbatsu",
+      "patterns": ["Apa itu senbatsu", "Maksud senbatsu", "Cara jadi senbatsu", "Member pilihan", "Arti senbatsu di JKT48"],
+      "responses": [
+        "Senbatsu adalah grup member pilihan yang terpilih untuk membawakan lagu utama (single) JKT48. ✨",
+        "Biasanya terdiri dari 16 member yang dipilih lewat manajemen atau voting fans (SSK).",
+        "Menjadi Senbatsu adalah impian setiap member karena akan muncul di Music Video utama! 🎬"
+      ]
+    },
+    {
+      "tag": "undergirls",
+      "patterns": ["Apa itu undergirls", "Maksud undergirls", "Siapa itu undergirls", "Undergirls JKT48"],
+      "responses": [
+        "Undergirls adalah grup member yang peringkatnya berada tepat di bawah Senbatsu dalam pemilihan (SSK). 🌟",
+        "Mereka biasanya membawakan lagu pendamping (coupling song) di single JKT48.",
+        "Meskipun bukan di grup utama, Undergirls tetap memiliki peran penting dan lagu yang keren-keren!"
+      ]
+    },
+    {
+      "tag": "setlist",
+      "patterns": ["Apa itu setlist", "Setlist JKT48", "Daftar lagu teater", "Setlist sekarang apa"],
+      "responses": [
+        "Setlist adalah daftar lagu yang dibawakan selama satu pertunjukan penuh di teater. 🎶",
+        "Contoh setlist populer adalah 'Renai禁止条例' (Aturan Anti Cinta) dan 'Ramune no Nomikata'.",
+        "Setiap setlist punya tema dan kostum yang berbeda-beda, jadi setiap nonton pengalamannya selalu unik!"
+      ]
+    },
+    {
+      "tag": "wota",
+      "patterns": ["Apa itu wota", "Arti wota", "Fans JKT48 disebut apa", "Apa bedanya fans dan wota"],
+      "responses": [
+        "Wota adalah istilah untuk fans berat idola yang sangat berdedikasi mendukung grup idolanya. ✨",
+        "Fans JKT48 sering disebut Wota, tapi yang paling penting adalah cara kita mendukung member secara positif!",
+        "Wota identik dengan semangatnya saat melakukan lightstick dan chant di teater. ❤️"
+      ]
+    },
+    {
+      "tag": "lightstick",
+      "patterns": ["Apa itu lightstick", "Kenapa pakai lightstick", "Cara pakai lightstick", "Stick lampu JKT48"],
+      "responses": [
+        "Lightstick adalah tongkat lampu warna-warni yang dibawa fans untuk mendukung member saat tampil. 🔦",
+        "Biasanya warna lampunya disesuaikan dengan warna oshi atau warna tim masing-masing.",
+        "Nonton JKT48 nggak lengkap kalau nggak bawa lightstick buat memeriahkan suasana! ✨"
+      ]
+    },
+    {
+      "tag": "chant",
+      "patterns": ["Apa itu chant", "Maksud teriakan fans", "Chant JKT48", "Apa itu mix chant"],
+      "responses": [
+        "Chant adalah teriakan semangat atau yel-yel yang dilakukan fans secara bersamaan saat lagu dimainkan. 🎤",
+        "Chant yang paling terkenal adalah 'Tiger, Fire, Cyber, Fiber, Diver, Viber, Jajaa!!'.",
+        "Chant membuat suasana konser atau teater jadi jauh lebih bertenaga dan kompak! 💪"
+      ]
+    },
+    {
+      "tag": "show_teater",
+      "patterns": ["Ada berapa show", "Jadwal teater", "Kapan ada pertunjukan", "Jam berapa teater dimulai"],
+      "responses": [
+        "Biasanya ada show di hari biasa (malam) dan akhir pekan (siang & malam). Cek jkt48.com untuk detailnya! 🗓️",
+        "Jadwal rutin dirilis setiap minggu di website atau media sosial resmi JKT48.",
+        "Pastikan cek jadwal sebelum datang karena setiap hari setlist yang dibawakan bisa berbeda-beda."
+      ]
+    },
+    {
+      "tag": "official_store",
+      "patterns": ["Dimana beli merchandise", "Beli baju JKT48", "Toko resmi JKT48", "Official Store dimana"],
+      "responses": [
+        "Kamu bisa beli merchandise resmi di booth Official Store yang ada di fX Sudirman Lt. 4! 🛍️",
+        "Ada juga toko online resmi JKT48 di marketplace. Hati-hati jangan beli yang bajakan ya!",
+        "Mulai dari kaos, photo pack, sampai gantungan kunci tersedia di Official Store. ✨"
+      ]
+    },
+    {
+      "tag": "photopack",
+      "patterns": ["Apa itu photopack", "Maksud PP JKT48", "Beli foto member dimana", "PP itu apa"],
+      "responses": [
+        "Photopack (PP) adalah koleksi foto member dalam amplop yang isinya acak. Hobi koleksi ini seru banget! 📸",
+        "Fans biasanya melakukan 'trade' atau tukar-menukar PP untuk melengkapi koleksi member favoritnya.",
+        "Setiap bulan biasanya JKT48 merilis edisi photopack baru dengan tema kostum yang berbeda-beda."
+      ]
+    },
+    {
+      "tag": "handshake",
+      "patterns": ["Apa itu handshake", "Salaman sama member", "Event salaman", "Personal Meet and Greet"],
+      "responses": [
+        "Sekarang event salaman diganti menjadi Personal Meet & Greet dimana kamu bisa ngobrol langsung dengan member favoritmu! ✨",
+        "Kamu butuh tiket khusus yang biasanya didapat dari pembelian album atau kartu digital JKT48.",
+        "Ini adalah momen paling ditunggu fans untuk memberikan dukungan langsung secara tatap muka! ❤️"
+      ]
+    },
+    {
+      "tag": "lagu",
+      "patterns": ["Lagu JKT48", "Apa saja lagunya", "Rekomendasi lagu JKT48", "Lagu paling hits", "Daftar lagu JKT48"],
+      "responses": [
+        "JKT48 punya ratusan lagu! Mulai dari 'Heavy Rotation', 'Rapsodi', sampai single terbaru 'Magic Hour'. 🎶",
+        "Kalau kamu suka yang ceria, dengerin 'Fortune Cookie yang Mencinta'. Kalau suka yang keren, coba 'Flying High'! ✨",
+        "Daftar lagunya sangat banyak, hampir semua lagu AKB48 disadur ke bahasa Indonesia dengan sangat apik."
+      ]
+    },
+    {
+      "tag": "grad",
+      "patterns": ["Apa itu grad", "Arti graduate", "Member keluar JKT48", "Maksud lulus dari grup"],
+      "responses": [
+        "Grad atau Graduation adalah istilah saat seorang member secara resmi lulus atau keluar dari grup JKT48. 🎓",
+        "Biasanya ada pertunjukan kelulusan (Graduation Show) sebagai tanda perpisahan dengan fans.",
+        "Meskipun sedih, Graduation adalah awal baru bagi member untuk mengejar impian mereka di luar grup."
       ]
     },
     {
       "tag": "perpisahan",
-      "patterns": ["Terima kasih", "Sampai jumpa", "Dadah", "Keluar", "Bye", "Sip", "Oke", "Thanks", "Makasih"],
+      "patterns": ["Dadah", "Bye", "Terima kasih", "Sudah dulu ya", "Makasih Rin", "Sampai jumpa", "Cukup Rin", "Tutup chat", "Makasih bantuannya"],
       "responses": [
-        "Sama-sama! Dukung terus JKT48 ya! 🎤",
-        "Sampai jumpa kembali di teater! ✨"
+        "Sampai jumpa lagi! Jangan lupa dukung terus oshi kamu ya! ❤️",
+        "Terima kasih sudah mengobrol dengan Rin. Dadah! 👋",
+        "Senang bisa membantu. Sampai bertemu lagi di lain waktu! ✨",
+        "Sama-sama! Rin tunggu pertanyaan berikutnya ya. Bye!",
+        "Dahhh! Jangan lupa dengerin lagu JKT48 hari ini! 🎧"
       ]
     },
     {
       "tag": "tidak_paham",
-      "patterns": ["apa", "hah", "gatau", "maksudnya", "kamu siapa", "woi"],
+      "patterns": [],
       "responses": [
-        "Maaf, Rin kurang paham maksudnya. Bisa tanya hal lain seputar member, lagu, atau teater JKT48?",
-        "Rin belum belajar tentang itu. Coba tanya info member atau jadwal teater ya!"
+        "Aduh, Rin belum belajar soal itu. Coba tanya hal lain tentang JKT48 ya! 😅",
+        "Maaf, Rin kurang paham maksudnya. Bisa pakai kata-kata lain? 🙏",
+        "Hmm, sepertinya pertanyaan itu di luar pengetahuan Rin saat ini. Coba tanya soal member atau teater yuk!",
+        "Rin bingung... Bisa tolong jelaskan lagi pertanyaannya? 🤖",
+        "Wah, Rin belum sampai ke sana belajarnya. Tanya yang lain yuk! ✨"
       ]
     }
   ]

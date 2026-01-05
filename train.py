@@ -4,10 +4,13 @@ import nltk
 import pickle
 import random
 import ssl
+import matplotlib.pyplot as plt
+import seaborn as sns
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import SGD
+from sklearn.metrics import confusion_matrix, classification_report
 
 # Bypass SSL untuk download NLTK
 try:
@@ -62,7 +65,7 @@ training = np.array(training, dtype=object)
 train_x = list(training[:, 0])
 train_y = list(training[:, 1])
 
-# 3. Membangun Model Deep Learning
+# 3. Membangun Model Deep Learning (MLP Architecture)
 model = Sequential()
 model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
 model.add(Dropout(0.5))
@@ -74,6 +77,35 @@ sgd = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 print("Memulai Training Model...")
-model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+# Simpan history untuk keperluan laporan jika perlu
+history = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
 model.save('chatbot_model.h5')
 print("Model berhasil dibuat dan disimpan!")
+
+# --- TAMBAHAN EVALUASI MODEL (CONFUSION MATRIX) ---
+print("\nMenghasilkan Evaluasi Model...")
+
+# Prediksi data training
+y_pred = model.predict(np.array(train_x))
+y_pred_classes = np.argmax(y_pred, axis=1)
+y_true = np.argmax(np.array(train_y), axis=1)
+
+# Buat Classification Report di Terminal
+print("\nClassification Report:")
+print(classification_report(y_true, y_pred_classes, target_names=classes))
+
+# Buat Heatmap Confusion Matrix
+cm = confusion_matrix(y_true, y_pred_classes)
+plt.figure(figsize=(12, 10))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
+            xticklabels=classes, yticklabels=classes)
+plt.title('Confusion Matrix Chatbot JKT48')
+plt.xlabel('Prediksi Model')
+plt.ylabel('Data Sebenarnya (Label)')
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+# Simpan gambar agar bisa dimasukkan ke dokumen UAS
+plt.savefig('confusion_matrix.png')
+print("Gambar Confusion Matrix disimpan sebagai 'confusion_matrix.png'")
+plt.show()
